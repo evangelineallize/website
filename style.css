@@ -1,0 +1,632 @@
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDJB9cme.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu3cOWxw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCds18S0xR41.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu3cOWxw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*/
+/*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*/
+
+body {background-color: #ffffff}
+
+
+.instagram {
+	margin-left: 4em;
+	position: relative;top: 1em;
+	text-decoration: none;
+	color: white;
+	font-family: source sans pro, source sans pro;
+	font-size: 0.6em;
+	background-color: #EDB983;
+	border: 1px, solid, #EDB983;
+	border-radius: 6px;
+	padding: 4px;
+}
+
+h1 {font-family: source sans pro; font-weight: 600; font-size: 2.25em;margin-left: 1em; margin-bottom: 0.25em;}
+h1 a {text-decoration: none; color: #6E7275;}
+
+.beta{font-family: source sans pro; font-weight: 300; font-size: 1em, color: #6E7275; 
+	padding-left: 1em; display:flex; display: inline; position: absolute;
+margin-left: 380px; margin-top: 2.5em; }
+
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-start; 
+	align-items: center;
+	width: 70%;
+	min-width:550px;
+	padding-left: 0;
+	margin-left: 2.35em;
+}
+
+.liste a{text-decoration: none; font-family: source sans pro; font-weight: 400; font-size: 1em; color: #9C9C9C; margin-right: 40px;}
+
+.liste a:hover {color: #4A4F54;}
+
+.bonjour {color: #585858; text-align:left; margin-left: 2.3em; font-family: source sans pro; font-weight: 300}
+
+
+
+.submenublock{display: flex; flex-direction: column; position: fixed;
+margin-left: 1.6em; margin-top: 1em;}
+
+.submenu{ margin-left: 1em; padding-right: 1em;
+	font-family: source sans pro;
+	font-weight: 300;
+	font-size: 0.8em;
+	max-width: 800px;
+	margin-top: 1em;}
+.submenu a {text-decoration: none;color: #4A4F54}
+
+.subtitles {width: 100%;
+	margin-left: 10px; padding-right: 30px; margin-right: 30px; margin-top:2.5em;
+	text-decoration: none;
+	font-family: Source sans pro;
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #4A4F54;
+	max-width: 800px;
+	padding-top: 2.5em;
+}
+
+
+.introduction {font-family: source sans pro; font-weight: 400; margin-left: 100px; margin-top: 30px; }
+
+.image-wrap-fanny{position: relative;
+	max-width: 200px;
+	height: auto;
+	margin-left:2em;
+	padding-top: 0.5em;}
+
+.images_fanny{display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	margin:50px, 50px, 50px, 50px;
+	padding: 1em;
+	box-shadow: 6px, 6px, 0.4 black;
+	margin-left: 1em;}
+.fanny_images {
+	height: 200px;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*/
+/*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*/
+
+#aquarellessub{margin-top: 0; margin-bottom: 0;padding-top: 1em}
+
+#paintings_title{text-decoration: none; font-family: source sans pro; font-size: 1em; color: #9C9C9C; margin-right: 40px;
+	color: #4A4F54}
+
+#ateliersevrestexte {
+	width: 100%; margin-left: 10px; padding-right: 100px; margin-right: 140px;
+	font-family: source sans pro; font-weight: 300;
+	font-size: 0.8em;
+	max-width: 800px;}
+
+.images_paintings{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	margin:50px, 50px, 100px, 50px;
+	padding: 1em;
+	box-shadow: 6px, 6px, 0.4 black;
+	margin-left: 6em;
+	padding-top: 0
+	margin-top:0;
+}
+
+.paintings_images {
+	height: 400px;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.paintings_images:hover {
+  	transform: scale(1.02);
+	transition: transform .15s;
+	box-shadow: 0 8px 12px 0.5 rgba(0, 0, 0, 0.2)}
+
+
+#chalet1_description{padding-left: 30%}
+#chalet2_description{padding-left: 30%}
+
+
+#chezluc_description{padding-left: 30%}
+
+#tele1 {width: 800px; height:auto;}
+#tele1_description{padding-left: 30%}
+
+#tele2 {width: 500px}
+#tele2_description{padding-left: 25%}
+
+#tele5 {width: 500px}
+#tele5_description{padding-left: 25%}
+
+#poupee1 {width: 600px;height: auto}
+#poupee1_description{padding-left: 25%}
+
+#poupee2 {width: 450px; height: auto; margin-top: 10%}
+#poupee2_description{padding-left: 25%; position: absolute; top: 90%;}
+
+#dessinmains {width: 500px}
+#dessinmains_description{padding-left: 25%}
+
+#requiem1 {width: 280px;}
+#requiem1_description{padding-left: 25%}
+#requiem1:hover {
+  	transform: scale(1.2);
+	transition: transform .3s;}
+
+#requiem2 {width: 320px;}
+#requiem2_description{padding-left: 25%}
+#requiem2:hover {
+  	transform: scale(1.2);
+	transition: transform .3s;}
+
+#requiem3 {width: 320px;}
+#requiem3_description{padding-left: 25%}
+#requiem3:hover {
+  	transform: scale(1.2);
+	transition: transform .3s;}
+
+#requiem4 {width: 320px}
+#requiem4_description{padding-left: 25%}
+#requiem4:hover {
+  	transform: scale(1.2);
+	transition: transform .3s;}
+
+#requiem5 {width: 320px}
+#requiem5_description{padding-left: 25%}
+#requiem5:hover {
+  	transform: scale(1.2);
+	transition: transform .3s;}
+
+#olderworks {padding-top: 5em}
+#acrylic {padding-top: 5em}
+
+
+
+
+/*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*/
+/*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*//*DIGITAL*/
+
+
+#digital_title {text-decoration: none; font-family: source sans pro; font-size: 1em; color: #9C9C9C; margin-right: 40px;
+	color: #4A4F54}
+#posterssub{margin-top: 0; margin-bottom: 0;padding-top: 1em}
+
+.images_design{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	margin:100px, 50px, 50px, 50px;
+	padding: 1em;
+	box-shadow: 6px, 6px, 0.4 black;
+	margin-left: 6em;
+	margin-right: 0em;
+}
+
+.design_images {
+	min-width: 250px
+	max-width:350px;
+	height: 450px;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.design_images:hover {
+  	transform: scale(1.02);
+	transition: transform .15s;
+	box-shadow: 0 8px 12px 0.5 rgba(0, 0, 0, 0.2)}
+
+.img_wrap {
+	position: relative;
+	min-width: 250px;
+	height: auto;
+	margin-right: 2em;
+	padding-top: 5em;
+
+}
+.img_description{
+	position: absolute;top: 102%;
+  	color: #4A4F54;
+  	font-family: source sans pro;
+  	font-weight: 400;
+  	opacity: 0;
+  	font-size: 0.8em;
+  	display: flex;
+}
+
+.img_wrap:hover .img_description {visibility: visible;opacity: 1;}
+
+
+
+
+
+
+.italic{font-variant: italic}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DRAWINGS*//*DRAWINGS*//*DRAWINGS*//*DRAWINGS*//*DRAWINGS*//*DRAWINGS*//*DRAWINGS*/
+/*DRAWINGS*//*DRAWINGS*//*DRAWINGS*//*DRAWINGS*//*DRAWINGS*//*DRAWINGS*//*DRAWINGS*/
+
+
+
+#drawings_title {text-decoration: none; font-family: source sans pro; font-size: 1em; color: #9C9C9C; margin-right: 40px;
+	color: #4A4F54}
+#generalsub{margin-top: 0em; margin-bottom: 0;padding-top: 0}
+
+.images_arts{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	margin:50px, 50px, 50px, 50px;
+	padding: 1em;
+	box-shadow: 6px, 6px, 0.4 black;
+	margin-left: 6em;
+}
+
+.arts_images {
+	min-width: 250px
+	max-width:650px;
+	height: 340px;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.arts_images:hover {
+  	transform: scale(1.02);
+	transition: transform .15s;
+	box-shadow: 0 8px 12px 0.5 rgba(0, 0, 0, 0.2)}
+
+.img_wrap {
+	position: relative;
+	min-width: 250px;
+	height: auto;
+	margin-right: 3em;
+	padding-top: 5em;
+
+}
+.img_description_arts{
+	position: absolute;top: 102%;
+  	color: #4A4F54;
+  	font-family: source sans pro;
+  	font-weight: 400;
+  	opacity: 0;
+  	font-size: 0.8em;
+  	display: flex;
+  	text-align: center;
+}
+
+.img_wrap:hover .img_description_arts {visibility: visible;opacity: 1;}
+
+
+
+#tatoos{
+	width: 100%;
+	margin-left: 10px; padding-right: 100px; margin-right: 140px; margin-top: 10em;
+	text-decoration: none;
+	font-family: source sans pro;
+	font-size: 1em;
+	font-weight: bold;
+	color: #4A4F54;
+	max-width: 800px;
+	padding-top: 2em;
+}
+
+
+
+
+
+
+
+/*SHORT COMICS*//*SHORT COMICS*//*SHORT COMICS*//*SHORT COMICS*//*SHORT COMICS*//*SHORT COMICS*/
+/*SHORT COMICS*//*SHORT COMICS*//*SHORT COMICS*//*SHORT COMICS*//*SHORT COMICS*//*SHORT COMICS*/
+
+
+#shortcomics_title {text-decoration: none; font-family: source sans pro; font-size: 1em; color: #9C9C9C; margin-right: 40px;
+	color: #4A4F54}
+
+.images_shortcomics{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	margin:100px, 50px, 50px, 50px;
+	padding: 1em;
+	box-shadow: 6px, 6px, 0.4 black;
+	margin-left: 2em;
+	transition: 0.3s;
+}
+
+.shortcomics_images {
+	min-width: 250px
+	max-width:350px;
+	height: 450px;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.shortcomics_images:hover {
+  	transform: scale(1.02);
+	transition: transform .15s;
+	box-shadow: 0 8px 12px 0.5 rgba(0, 0, 0, 0.2)}
+
+.img_description_shortcomics {
+	position: absolute;top: 102%;
+  	color: #4A4F54;
+  	font-family: source sans pro;
+  	font-weight: 400;
+  	opacity: 0;
+  	font-size: 0.8em;
+  	display: flex;
+	text-align: center;
+}
+
+.img_wrap:hover .img_description_shortcomics {visibility: visible;opacity: 1;}
+
+
+
+
+
+
+/*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*/
+/*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*//*ABOUT*/
+
+
+#about_title {text-decoration: none; font-family: source sans pro; font-size: 1em; color: #9C9C9C; margin-right: 40px;
+	color: #4A4F54}
+
+
+.about_text{margin-left: 2.5em; margin-top: 3em; font-family: source sans pro; font-weight: 300;width: 800px;  }
+
+.about_links {text-decoration: none; color: black;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*/
+/*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*//*CONTACT*/
+
+
+#contact_title {text-decoration: none; font-family: source sans pro; font-size: 1em; color: #9C9C9C; margin-right: 40px;
+	color: #4A4F54}
+
+.mail {
+	text-decoration: none;
+	margin-top: 4em;
+	margin-left: 1.5em;
+	font-family: sans-serif;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {position: absolute bottom; margin-bottom: 3em; margin-left: 40%; padding-top: 9em; margin-right: 30%; font-family: source sans pro; font-size: 0.7em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 70%;
+  max-width: 600px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+	font-family: source sans pro;
+	font-weight: 300;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: 300;
+  transition: 0.3s;
+  width: 100%; /* Full width */
+  height: 100%;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 600px){
+  .modal-content {
+    width: 80%;
+  }
+}
+
+
+
