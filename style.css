@@ -467,17 +467,19 @@ margin-left: 1.6em; margin-top: 1em;}
 	color: #4A4F54}
 
 
-.about_text{margin-left: 2.5em; margin-top: 3em; font-family: source sans pro; font-weight: 300;width: 800px;  }
+.about_text{margin-left: 2.5em; margin-top: 3em; font-family: source sans pro; font-weight: 300;width: 600px; 
+}
 
 .about_links {text-decoration: none; color: black;}
 
 
+#photomoi {width: 100px, height:auto; max-width: 180px; margin-left: 1.5em; display:flex; display: inline}
+#photomoiwrap {width: 100px;}
 
+#abouttextbox {display: flex; margin-top: 2em;}
 
-
-
-
-
+.about_text_cv{margin-left: 16em; margin-top: 1em; font-family: source sans pro; font-weight: 300;width: 600px; 
+}
 
 
 
