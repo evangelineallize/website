@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="main.js"></script>
 		<title>Evangéline / Drawings</title>
 	</head> 
 	
@@ -42,22 +43,50 @@
 				</div>
 			</div>
 
-			<div class="img_wrap"><a href="drawings/fruit.jpg"><img src="drawings/fruit_mini.jpg" class="arts_images" id="fruit" alt="fruit" /></a><p class="img_description_arts" id="fruit_description"><i>Untitled</i>, Water paint pens, 2018 </p></div> 
-			<div class="img_wrap"><a href="drawings/giverny.jpg"><img src="drawings/giverny_mini.jpg" class="arts_images" id="giverny" alt="giverny" /></a><p class="img_description_arts" id="giverny_description"><i>Untitled</i>, Water paint pens, 2018 </p></div> 
-			<div class="img_wrap"><a href="drawings/cabane2.jpg"><img src="drawings/cabane2_mini.jpg" class="arts_images" id="cabane2" alt="cabane2" /></a><p class="img_description_arts" id="cabane2_description"><i>Untitled</i>, Water paint pens, 2018 </p></div> 
-			<div class="img_wrap"><a href="drawings/cabanesam.jpg"><img src="drawings/cabanesam_mini.jpg" class="arts_images" id="cabane" alt="cabane" /></a><p class="img_description_arts" id="cabane_description"><i>Untitled</i>, Water paint pens, 2018 </p></div> 
-			<div class="img_wrap"><a href="drawings/depanneur.jpg"><img src="drawings/depanneur_mini.jpg" class="arts_images" id="depanneur" alt="depanneur" /></a><p class="img_description_arts" id="depanneur_description"><i>Untitled</i>, Water paint pens, 2018 </p></div> 
-			<div class="img_wrap"><a href="drawings/luc.jpg"><img src="drawings/luc_mini.jpg" class="arts_images" id="chezluc" alt="chezluc" /></a><p class="img_description_arts" id="chezluc_description"><i>Chez Luc</i>, 2018 </p></div> 
-			<div class="img_wrap"><a href="drawings/sartre.jpg"><img src="drawings/sartre.jpg" class="arts_images" id="sartre" alt="sartre" /></a><p class="img_description_arts" id="sartre_description"> <i>Sartre</i>, Graphite, 2019 </p></div> 
-			<div class="img_wrap"><a href="drawings/jennlisbon.jpg"><img src="drawings/jennlisbon.jpg" class="arts_images" id="jenn" alt="jenn" /></a><p class="img_description_arts" id="jenn_description"> <i>Jenn</i>, Graphite, 2019 </p></div> 
-			<div class="img_wrap"><a href="drawings/enfancecreole.jpg"><img src="drawings/enfancecreole_mini.jpg" class="arts_images" id="enfancecreole" alt="illustration enfance creole" /></a><p class="img_description_arts" id="jenn_description"> <i>Enfance créole</i>, illustration, Graphite, 2019 </p></div> 
+			<div class="img_wrap" onclick=OpenModal("drawings/fruit.jpg")>
+				<img src="drawings/fruit_mini.jpg" class="arts_images" id="fruit" alt="fruit" /></a>
+				<p class="img_description_arts" id="fruit_description"><i>Untitled</i>, Water paint pens, 2018 </p>
+			</div> 
+
+			<div class="img_wrap" onclick=OpenModal("drawings/giverny.jpg")>
+				<img src="drawings/giverny_mini.jpg" class="arts_images" id="giverny" alt="giverny" /></a><p class="img_description_arts" id="giverny_description"><i>Untitled</i>, Water paint pens, 2018 </p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("drawings/cabane2.jpg")>
+				<img src="drawings/cabane2_mini.jpg" class="arts_images" id="cabane2" alt="cabane2" /></a><p class="img_description_arts" id="cabane2_description"><i>Untitled</i>, Water paint pens, 2018 </p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("drawings/cabanesam.jpg")>
+				<img src="drawings/cabanesam_mini.jpg" class="arts_images" id="cabane" alt="cabane" /></a><p class="img_description_arts" id="cabane_description"><i>Untitled</i>, Water paint pens, 2018 </p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("drawings/depanneur.jpg")>
+				<img src="drawings/depanneur_mini.jpg" class="arts_images" id="depanneur" alt="depanneur" /></a><p class="img_description_arts" id="depanneur_description"><i>Untitled</i>, Water paint pens, 2018 </p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("drawings/luc.jpg")>
+				<img src="drawings/luc_mini.jpg" class="arts_images" id="chezluc" alt="chezluc" /></a><p class="img_description_arts" id="chezluc_description"><i>Chez Luc</i>, 2018 </p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("drawings/sartre.jpg")>
+				<img src="drawings/sartre.jpg" class="arts_images" id="sartre" alt="sartre" /></a><p class="img_description_arts" id="sartre_description"> <i>Sartre</i>, Graphite, 2019 </p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("drawings/jennlisbon.jpg")>
+				<img src="drawings/jennlisbon.jpg" class="arts_images" id="jenn" alt="jenn" /></a><p class="img_description_arts" id="jenn_description"> <i>Jenn</i>, Graphite, 2019 </p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("drawings/enfancecreole.jpg")>
+				<img src="drawings/enfancecreole_mini.jpg" class="arts_images" id="enfancecreole" alt="illustration enfance creole" /></a><p class="img_description_arts" id="jenn_description"> <i>Enfance créole</i>, illustration, Graphite, 2019 </p>
+			</div> 
 
 
 			<h3 class="subtitles" id="tatoossub"> Tatoos </h3>
-			<div class="img_wrap"><a href="drawings/tatoosimages/greg.jpg"><img src="drawings/tatoosimages/greg.jpg" class="arts_images" id="greg" alt="tatoo greg" /></a><p class="img_description_arts" id="greg_description"><i>Untitled</i>(for Greg), 2018 </p></div>
-			<div class="img_wrap"><a href="drawings/tatoosimages/romain.jpg"><img src="drawings/tatoosimages/romain.jpg" class="arts_images" id="romain" alt="tatoo romain" /></a><p class="img_description_arts" id="romain_description"><i>Untitled</i> (for Romain), 2018 </p></div>
-			<div class="img_wrap"><a href="drawings/tatoosimages/alina.jpg"><img src="drawings/tatoosimages/alina.jpg" class="arts_images" id="alina" alt="tatoo alina" /></a><p class="img_description_arts" id="alina_description"><i>Untitled</i> (for Alina), 2018 </p></div> 
-			<div class="img_wrap"><a href="drawings/tatoosimages/laure.jpg"><img src="drawings/tatoosimages/laure.jpg" class="arts_images" id="laure" alt="tatoo laure" /></a><p class="img_description_arts" id="laure_description"><i>Untitled</i> (for Laure), 2019 </p></div>
+			<div class="img_wrap" onclick=OpenModal("drawings/tatoosimages/greg.jpg")>
+				<img src="drawings/tatoosimages/greg.jpg" class="arts_images" id="greg" alt="tatoo greg" /></a><p class="img_description_arts" id="greg_description"><i>Untitled</i>(for Greg), 2018 </p>
+			</div>
+			<div class="img_wrap" onclick=OpenModal("drawings/tatoosimages/romain.jpg")>
+				<img src="drawings/tatoosimages/romain.jpg" class="arts_images" id="romain" alt="tatoo romain" /></a><p class="img_description_arts" id="romain_description"><i>Untitled</i> (for Romain), 2018 </p>
+			</div>
+			<div class="img_wrap" onclick=OpenModal("drawings/tatoosimages/alina.jpg")>
+				<img src="drawings/tatoosimages/alina.jpg" class="arts_images" id="alina" alt="tatoo alina" /></a><p class="img_description_arts" id="alina_description"><i>Untitled</i> (for Alina), 2018 </p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("drawings/tatoosimages/laure.jpg")>
+				<img src="drawings/tatoosimages/laure.jpg" class="arts_images" id="laure" alt="tatoo laure" /></a><p class="img_description_arts" id="laure_description"><i>Untitled</i> (for Laure), 2019 </p>
+			</div>
 			
 			
 			
