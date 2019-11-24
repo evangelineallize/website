@@ -90,7 +90,8 @@ body {background-color: #ffffff}
 }
 
 h1 {font-family: source sans pro; font-weight: 600; font-size: 2.25em;margin-left: 1em; margin-bottom: 0.25em;}
-h1 a {text-decoration: none; color: #6E7275;}
+h1 a {text-decoration: none; color: #6E7275;display: block;
+    width: 100%;}
 
 .beta{font-family: source sans pro; font-weight: 300; font-size: 1em, color: #6E7275; 
 	padding-left: 1em; display:flex; display: inline; position: absolute;
