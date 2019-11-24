@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="main.js"></script>
 		<title>Evangéline ShortComics</title>
 	</head> 
 	
@@ -27,12 +28,26 @@
 
 		<section class="images_shortcomics">
 
-
-			<div class="img_wrap"><a href="shortcomics/corneillecomplete.pdf" target="blank"><img src="shortcomics/corneille.jpg" class="shortcomics_images" id="corneille" alt="corneille" /></a><p class="img_description_shortcomics" id="corneille_description"><i>Corneille </i>&nbsp(text by Samuel Ferrer), 2019 </p></div> 
-			<div class="img_wrap"><a href="shortcomics/egg.jpg"><img src="shortcomics/egg.jpg" class="shortcomics_images" id="egg" alt="A short story of my life" /></a><p class="img_description_shortcomics" id="egg_description"><i>Untitled</i>, 2019 </p></div> 
-			<div class="img_wrap"><a href="shortcomics/plane.jpg"><img src="shortcomics/plane.jpg" class="shortcomics_images" id="plane" alt="encounter with my neighbour in the plane" /></a><p class="img_description_shortcomics" id="plane_description"><i>On the plane</i>, 2019 </p></div> 
-			<div class="img_wrap"><a href="shortcomics/herbert.jpg"><img src="shortcomics/herbert.jpg" class="shortcomics_images" id="herbert" alt="chilling at Herbert Park" /></a><p class="img_description_shortcomics" id="herbert_description"><i>Herbert Park</i>, 2019 </p></div> 
-
+			<div id="modal" class="modal-close" onclick=CloseModal()>
+				<div class="close-btn">X</div>
+				<div id="modal-content">
+					<img/>
+				</div>
+			</div>
+			<div class="img_wrap">
+				<a href="shortcomics/corneillecomplete.pdf" target="blank">
+					<img src="shortcomics/corneille.jpg" class="shortcomics_images" id="corneille" alt="corneille" />
+				</a>
+				<p class="img_description_shortcomics" id="corneille_description">
+					<i>Corneille </i>&nbsp(text by Samuel Ferrer), 2019 
+				</p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("shortcomics/egg.jpg")><img src="shortcomics/egg_mini.jpg" class="shortcomics_images" id="egg" alt="A short story of my life" /><p class="img_description_shortcomics" id="egg_description"><i>Untitled</i>, 2019 </p></div> 
+			<div class="img_wrap" onclick=OpenModal("shortcomics/plane.jpg")>
+				<img src="shortcomics/plane.jpg" class="shortcomics_images" id="plane" alt="encounter with my neighbour in the plane" />
+				<p class="img_description_shortcomics" id="plane_description"><i>On the plane</i>, 2019 </p>
+			</div> 
+			<div class="img_wrap" onclick=OpenModal("shortcomics/herbert.jpg")><img src="shortcomics/herbert.jpg" class="shortcomics_images" id="herbert" alt="chilling at Herbert Park" /><p class="img_description_shortcomics" id="herbert_description"><i>Herbert Park</i>, 2019 </p></div> 
 
 
 		</section>
