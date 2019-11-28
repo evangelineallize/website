@@ -59,38 +59,28 @@ z/* latin */
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+* {margin: 0; padding: 0}
+
+
 
 
 
 
 html {
   scroll-behavior: smooth;
-  height: 100%;
 }
 
 
 /*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*/
 /*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*//*GENERAL*/
 
-body {background-color: #ffffff; height: 100%}
 
 
-.instagram {
-	margin-left: 4em;
-	position: relative;top: 1em;
-	text-decoration: none;
-	color: white;
-	font-family: source sans pro, source sans pro;
-	font-size: 0.6em;
-	background-color: #EDB983;
-	border: 1px, solid, #EDB983;
-	border-radius: 6px;
-	padding: 4px;
-}
 
-h1 {font-family: source sans pro; font-weight: 600; font-size: 2.25em;margin-left: 1em; margin-bottom: 0.25em;
+
+h1 {font-family: source sans pro; font-weight: 600;margin-left: 1em; margin-bottom: 0.45vmin; margin-top: 0.45vmin;
 font-size: 5.5vmin;}
-h1 a {text-decoration: none; color: #6E7275;}
+h1 a {text-decoration: none; color: #5e5e5e;}
 
 .beta{font-family: source sans pro; font-weight: 300; font-size: 1em, color: #6E7275; 
 	padding-left: 1em; display:flex; display: inline;
@@ -101,7 +91,6 @@ margin-left: 4vmin; margin-top: 4em; }
 	flex-wrap: wrap;
 	justify-content: space-start; 
 	align-items: center;
-	min-width:550px;
 	padding-left: 0;
 	margin-left: 5.5vmin;
 }
@@ -111,7 +100,7 @@ font-size: 2.8vmin;}
 
 .liste a:hover {color: #4A4F54;}
 
-.bonjour {color: #585858; text-align:left; margin-left: 6vmin; font-family: source sans pro; font-weight: 300;
+.bonjour {color: #585858; text-align:left; margin-left: 6vmin; font-family: source sans pro; font-weight: 400;
 font-size: 2.5vmin}
 
 
@@ -128,7 +117,7 @@ margin-left: 1.6em; margin-top: 1em;}
 .submenu a {text-decoration: none;color: #4A4F54}
 
 .subtitles {width: 100%;
-	margin-left: 7vmin; padding-right: 30px; margin-right: 30px; margin-top:2.5em;
+	margin-left: 15vmin; padding-right: 30px; margin-right: 30px; margin-top:2.5em;
 	text-decoration: none;
 	font-family: Source sans pro;
 	font-size: 1.2em;
@@ -149,10 +138,10 @@ margin-left: 1.6em; margin-top: 1em;}
 #aquarellessub{margin-top: 0; margin-bottom: 0;padding-top: 1em}
 
 #paintings_title{text-decoration: none; font-family: source sans pro; font-size: 2.8vmin; color: #9C9C9C; margin-right: 40px;
-	color: #4A4F54}
+	color: #4A4F54; font-weight: 400;}
 
 #ateliersevrestexte {
-	width: 100%; margin-left: 10px; padding-right: 100px; margin-right: 140px;
+	width: 100%; margin-left: 23vmin; padding-right: 100px; margin-right: 140px; margin-top: 5vmin;
 	font-family: source sans pro; font-weight: 300;
 	font-size: 0.8em;
 	max-width: 800px;}
@@ -201,30 +190,30 @@ margin-left: 1.6em; margin-top: 1em;}
 
 #/dessinmains {width: 500px}
 
-#/requiem1 {width: 280px;}
+#requiem1 {width: 60vmin;}
 #requiem1:hover {
   	transform: scale(1.2);
 	transition: transform .3s;}
 
-#/requiem2 {width: 320px;}
+#requiem2 {width: 60vmin;}
 #requiem2_description{padding-left: 25%}
 #requiem2:hover {
   	transform: scale(1.2);
 	transition: transform .3s;}
 
-#/requiem3 {width: 320px;}
+#requiem3 {width: 60vmin;}
 #requiem3_description{padding-left: 25%}
 #requiem3:hover {
   	transform: scale(1.2);
 	transition: transform .3s;}
 
-#/requiem4 {width: 320px}
+#requiem4 {width: 60vmin}
 #requiem4_description{padding-left: 25%}
 #requiem4:hover {
   	transform: scale(1.2);
 	transition: transform .3s;}
 
-#/requiem5 {width: 320px}
+#requiem5 {width: 60vmin}
 #requiem5_description{padding-left: 25%}
 #requiem5:hover {
   	transform: scale(1.2);
@@ -446,14 +435,13 @@ padding-right:1vmin;}
 .about_links {text-decoration: none; color: black; font-size: 2.3vmin}
 
 
-#photomoi {max-width: 35vmin; max-height: 35vmin; height:auto; margin-left: 5vmin; margin-top: 5vmin; display: inline;
+#photomoi {max-width: 35vmin; max-height: 35vmin; height:auto; margin-left: 5vmin; margin-top: 8.2vmin; display: inline;
 border-radius:8px; box-shadow: 10px, 10px, 5px black;}
 #photomoiwrap {width: 20vmin;}
 
-#abouttextbox {display: flex; margin-top: 2em;margin-right: 1em;}
+#abouttextbox {display: flex; margin-top: 2em;margin-right: 4vmin; margin-left: 3vmin}
 
-.about_text_cv{margin-left: 45vmin; font-family: source sans pro; font-weight: 300;width: 600px; 
-}
+
 
 
 
@@ -472,7 +460,7 @@ border-radius:8px; box-shadow: 10px, 10px, 5px black;}
 .mail {
 	text-decoration: none;
 	margin-top: 15vmin;
-	margin-left: 3vmin;
+	margin-left: 5vmin;
 	font-family: sans-serif;
 	color: black;
 	font-size: 2.5vmin;
