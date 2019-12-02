@@ -110,8 +110,9 @@ font-size: 2.8vmin;}
 
 .liste a:hover {color: #4A4F54;}
 
-.bonjour {color: #585858; text-align:left; margin-left: 6vmin; font-family: source sans pro; font-weight: 400;
-font-size: 2.5vmin}
+.bonjour {color: #585858; text-align:center; margin-left: 35%;
+margin-right: 40%; font-family: source sans pro; font-weight: 300;
+font-size: 2.5vmin; margin-top: 10vmin;}
 
 
 
@@ -241,7 +242,7 @@ margin-left: 1.6em; margin-top: 1em;}
 
 #digital_title {text-decoration: none; font-family: source sans pro; font-size: 2.8vmin; color: #9C9C9C; margin-right: 40px;
 	color: #4A4F54}
-#posterssub{margin-top: 0; margin-bottom: 0;padding-top: 1em}
+#posterssub{margin-top: 0; margin-bottom: 10;padding-top: 1em}
 
 .images_design{
 	display: flex;
@@ -279,9 +280,9 @@ margin-left: 1.6em; margin-top: 1em;}
 	position: absolute;top: 102%;
   	color: #4A4F54;
   	font-family: source sans pro;
-  	font-weight: 400;
+  	font-weight: 300;
   	opacity: 0;
-  	font-size: 0.8em;
+  	font-size: 0.95em;
   	display: flex;
 }
 
@@ -292,7 +293,9 @@ margin-left: 1.6em; margin-top: 1em;}
 
 
 
-.italic{font-variant: italic}
+.italic{font-style: italic; font-weight:400;}
+
+.italicabout {font-variant: italic; font-weight:300;}
 
 
 
@@ -354,9 +357,9 @@ margin-left: 1.6em; margin-top: 1em;}
 	position: absolute;top: 102%;
   	color: #4A4F54;
   	font-family: source sans pro;
-  	font-weight: 400;
+  	font-weight: 300;
   	opacity: 0;
-  	font-size: 0.8em;
+  	font-size: 0.95em;
   	display: flex;
   	text-align: center;
 }
@@ -417,9 +420,9 @@ margin-left: 1.6em; margin-top: 1em;}
 	position: absolute;top: 102%;
   	color: #4A4F54;
   	font-family: source sans pro;
-  	font-weight: 400;
+  	font-weight: 300;
   	opacity: 0;
-  	font-size: 0.8em;
+  	font-size: 0.95em;
   	display: flex;
 	text-align: center;
 }
@@ -440,16 +443,31 @@ margin-left: 1.6em; margin-top: 1em;}
 
 
 .about_text{margin-left: 2em; margin-top: 3em; font-family: source sans pro; font-weight: 300;width: 600px; font-size: 2.5vmin;
-padding-right:1vmin;}
+padding-right:10vmin;}
 
 .about_links {text-decoration: none; color: black; font-size: 2.3vmin}
 
 
-#photomoi {max-width: 35vmin; max-height: 35vmin; height:auto; margin-left: 5vmin; margin-top: 7.8vmin; display: inline;
-border-radius:8px; box-shadow: 10px, 10px, 5px black;}
-#photomoiwrap {width: 20vmin;}
+#photomoi {
+	max-width: 40vmin; 
+	max-height: 40vmin; 
+	height:auto; 
+	margin-top: 7.8vmin; 
+	display: inline;
+	border-radius:6px; 
+	box-shadow: 10px, 10px, 5px black; 
+}
 
-#abouttextbox {display: flex; margin-top: 2em;margin-right: 4vmin; margin-left: 3vmin}
+
+#abouttextbox {
+	display: flex; 
+	margin-top: 2em;
+	margin-right: 10%; 
+	margin-left: 10%; 
+	justify-content: space-around; 
+	align-content: middle;
+	flex-wrap: wrap;
+}
 
 
 
@@ -468,7 +486,7 @@ border-radius:8px; box-shadow: 10px, 10px, 5px black;}
 .mail {
 	text-decoration: none;
 	margin-top: 15vmin;
-	margin-left: 5vmin;
+	margin-left: 9vmin;
 	font-family: sans-serif;
 	color: black;
 	font-size: 2.5vmin;
