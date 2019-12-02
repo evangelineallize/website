@@ -86,7 +86,7 @@ html {
 
 
 
-h1 {font-family: source sans pro; font-weight: 600;margin-left: 1em; margin-bottom: 0.45vmin; margin-top: 0.45vmin;
+h1 {font-family: source sans pro; font-weight: 600;margin-left: 33%; margin-bottom: 0.75vmin; margin-top: 0.45vmin;
 font-size: 5.5vmin;}
 h1 a {text-decoration: none; color: #5e5e5e;}
 
@@ -97,10 +97,12 @@ margin-left: 4vmin; margin-top: 4em; }
 .menu{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-start; 
+	justify-content: space-between; 
 	align-items: center;
 	padding-left: 0;
-	margin-left: 5.5vmin;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2vmin;
 }
 
 .liste a{text-decoration: none; font-family: source sans pro; font-weight: 400; font-size: 1em; color: #9C9C9C; margin-right: 40px;
