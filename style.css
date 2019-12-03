@@ -86,7 +86,7 @@ html {
 
 
 
-h1 {font-family: source sans pro; font-weight: 600;margin-left: 33%; margin-bottom: 0.75vmin; margin-top: 0.45vmin;
+h1 {font-family: source sans pro; font-weight: 600;margin-left: 11.5%; margin-bottom: 0.75vmin; margin-top: 0.45vmin;
 font-size: 5.5vmin;}
 h1 a {text-decoration: none; color: #5e5e5e;}
 
@@ -98,10 +98,11 @@ margin-left: 4vmin; margin-top: 4em; }
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between; 
-	align-items: center;
+	align-items: left;
 	padding-left: 0;
 	margin-left: 10%;
 	margin-right: 10%;
+	max-width: 140vmin;
 	margin-top: 2vmin;
 }
 
@@ -117,7 +118,7 @@ font-size: 2.5vmin; margin-top: 10vmin;}
 
 
 .submenublock{display: flex; flex-direction: column; position: fixed;
-margin-left: 1.6em; margin-top: 1em;}
+margin-left: 3.6em; margin-top: 1em;}
 
 .submenu{ margin-left: 1em; padding-right: 1em;
 	font-family: source sans pro;
@@ -486,7 +487,7 @@ padding-right:10vmin;}
 .mail {
 	text-decoration: none;
 	margin-top: 15vmin;
-	margin-left: 9vmin;
+	margin-left: 12vmin;
 	font-family: sans-serif;
 	color: black;
 	font-size: 2.5vmin;
