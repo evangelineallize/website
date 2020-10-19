@@ -142,7 +142,7 @@ margin-left: 3.6em; margin-top: 1em;}
 
 .introduction {font-family: source sans pro; font-weight: 400; margin-left: 100px; margin-top: 30px; }
 
-#pontmain {width: 900px; height: auto; margin-left:9em; margin-top: 2em; }
+#pontmain {width: 800px; height: auto; margin-left:10em; margin-top: 0em; }
 
 /*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*/
 /*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*//*PAINTINGS*/
@@ -445,7 +445,7 @@ margin-left: 3.6em; margin-top: 1em;}
 	color: #4A4F54}
 
 
-.about_text{margin-left: 2em; margin-top: 3em; font-family: source sans pro; font-weight: 300;width: 600px; font-size: 2.5vmin;
+.about_text{margin-left: 0em; margin-top: 3em; font-family: source sans pro; font-weight: 300;width: 600px; font-size: 2.5vmin;
 padding-right:10vmin;}
 
 .about_links {text-decoration: none; color: black; font-size: 2.3vmin}
@@ -465,8 +465,8 @@ padding-right:10vmin;}
 #abouttextbox {
 	display: flex; 
 	margin-top: 2em;
-	margin-right: 10%; 
-	margin-left: 10%; 
+	margin-right: 30%; 
+	margin-left: 12%; 
 	justify-content: space-around; 
 	align-content: middle;
 	flex-wrap: wrap;
@@ -489,7 +489,7 @@ padding-right:10vmin;}
 .mail {
 	text-decoration: none;
 	margin-top: 15vmin;
-	margin-left: 12vmin;
+	margin-left: 11vmin;
 	font-family: sans-serif;
 	color: black;
 	font-size: 2.5vmin;
